@@ -12,6 +12,7 @@
 		3BE84E1D1E9D28A100D15C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE84E1C1E9D28A100D15C2A /* Assets.xcassets */; };
 		3BE84E201E9D28A100D15C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE84E1E1E9D28A100D15C2A /* LaunchScreen.storyboard */; };
 		3BE84E2E1E9D323500D15C2A /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE84E2D1E9D323500D15C2A /* NetworkController.swift */; };
+		3BE84E341E9D352400D15C2A /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE84E331E9D352400D15C2A /* PokemonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3BE84E1F1E9D28A100D15C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BE84E211E9D28A100D15C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BE84E2D1E9D323500D15C2A /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		3BE84E331E9D352400D15C2A /* PokemonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,6 @@
 		3BE84E271E9D293700D15C2A /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				3BE84E191E9D28A100D15C2A /* Main.storyboard */,
 				3BE84E1C1E9D28A100D15C2A /* Assets.xcassets */,
 				3BE84E1E1E9D28A100D15C2A /* LaunchScreen.storyboard */,
 				3BE84E211E9D28A100D15C2A /* Info.plist */,
@@ -77,6 +78,8 @@
 		3BE84E281E9D2BA100D15C2A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				3BE84E191E9D28A100D15C2A /* Main.storyboard */,
+				3BE84E331E9D352400D15C2A /* PokemonViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				3BE84E2E1E9D323500D15C2A /* NetworkController.swift in Sources */,
 				3BE84E161E9D28A100D15C2A /* AppDelegate.swift in Sources */,
+				3BE84E341E9D352400D15C2A /* PokemonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
