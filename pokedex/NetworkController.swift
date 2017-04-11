@@ -18,13 +18,15 @@ class NetworkController {
         case delete = "DELETE"
     }
     
-    static func performRequest(url: URL, httpMethod: HTTPMethod, urlParams: [String:String], body: Data? = nil, completion: ((Data?, Error?) -> Void)? = nil) {
-        
+    static func performRequest(url: URL, httpMethod: HTTPMethod, body: Data? = nil, completion: ((Data?, Error?) -> Void)? = nil) {
+        /*
         let urlRequest = self.url(byAdding: urlParams, to: url)
         
         var request = URLRequest(url: urlRequest)
         request.httpMethod = httpMethod.rawValue
         request.httpBody = body
+        */
+        let request = URLRequest(url: url)
         
         let dataTask = URLSession.shared.dataTask(with: request, completionHandler: { (data, response, error) in
             completion?(data, error)

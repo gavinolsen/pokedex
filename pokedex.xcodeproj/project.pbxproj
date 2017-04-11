@@ -14,6 +14,7 @@
 		3BE84E2E1E9D323500D15C2A /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE84E2D1E9D323500D15C2A /* NetworkController.swift */; };
 		3BE84E341E9D352400D15C2A /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE84E331E9D352400D15C2A /* PokemonViewController.swift */; };
 		3BE84E361E9D35F400D15C2A /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE84E351E9D35F400D15C2A /* Pokemon.swift */; };
+		3BE84E381E9D3BA700D15C2A /* PokemonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE84E371E9D3BA700D15C2A /* PokemonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3BE84E2D1E9D323500D15C2A /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		3BE84E331E9D352400D15C2A /* PokemonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
 		3BE84E351E9D35F400D15C2A /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		3BE84E371E9D3BA700D15C2A /* PokemonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				3BE84E351E9D35F400D15C2A /* Pokemon.swift */,
+				3BE84E371E9D3BA700D15C2A /* PokemonController.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				3BE84E361E9D35F400D15C2A /* Pokemon.swift in Sources */,
 				3BE84E161E9D28A100D15C2A /* AppDelegate.swift in Sources */,
 				3BE84E341E9D352400D15C2A /* PokemonViewController.swift in Sources */,
+				3BE84E381E9D3BA700D15C2A /* PokemonController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
