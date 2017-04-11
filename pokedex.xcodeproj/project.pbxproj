@@ -11,6 +11,7 @@
 		3BE84E1B1E9D28A100D15C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE84E191E9D28A100D15C2A /* Main.storyboard */; };
 		3BE84E1D1E9D28A100D15C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE84E1C1E9D28A100D15C2A /* Assets.xcassets */; };
 		3BE84E201E9D28A100D15C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE84E1E1E9D28A100D15C2A /* LaunchScreen.storyboard */; };
+		3BE84E2E1E9D323500D15C2A /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE84E2D1E9D323500D15C2A /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3BE84E1C1E9D28A100D15C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BE84E1F1E9D28A100D15C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BE84E211E9D28A100D15C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE84E2D1E9D323500D15C2A /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +55,9 @@
 			isa = PBXGroup;
 			children = (
 				3BE84E151E9D28A100D15C2A /* AppDelegate.swift */,
-				3BE84E291E9D2BA400D15C2A /* New Group1 */,
-				3BE84E281E9D2BA100D15C2A /* New Group */,
+				3BE84E2A1E9D31C000D15C2A /* Networking */,
+				3BE84E291E9D2BA400D15C2A /* Model */,
+				3BE84E281E9D2BA100D15C2A /* ViewController */,
 				3BE84E271E9D293700D15C2A /* resources */,
 			);
 			path = pokedex;
@@ -71,18 +74,26 @@
 			name = resources;
 			sourceTree = "<group>";
 		};
-		3BE84E281E9D2BA100D15C2A /* New Group */ = {
+		3BE84E281E9D2BA100D15C2A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "New Group";
+			name = ViewController;
 			sourceTree = "<group>";
 		};
-		3BE84E291E9D2BA400D15C2A /* New Group1 */ = {
+		3BE84E291E9D2BA400D15C2A /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "New Group1";
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3BE84E2A1E9D31C000D15C2A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3BE84E2D1E9D323500D15C2A /* NetworkController.swift */,
+			);
+			name = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE84E2E1E9D323500D15C2A /* NetworkController.swift in Sources */,
 				3BE84E161E9D28A100D15C2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
